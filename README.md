@@ -1,4 +1,4 @@
-# TensorFlow Estimator - Trainer Package Template
+# GCP - Trainer Package Template
 
 The purpose of this repository is to provide a template of how you can package a TensorFlow training model to submit it to Cloud ML Engine. The template makes it easier to organise your code, and to adapt it to your dataset. In more details, the template covers the following functionality:
 * Metadata to define your dataset, along with the problem type (classification vs regression).
@@ -25,14 +25,6 @@ Although the template provides standard implementation to different functionalit
     2) Train the model on Cloud ML Engine. 
     3) Deploy the model on GCP as well as to make prediction (inference) using the deployed model.
 
-3. **[examples](examples)**: Currently four different examples are included: 
-    1. Classification, using the [Census Income](https://archive.ics.uci.edu/ml/datasets/Census+Income) (UCI Machine Learning Repository) dataset. 
-    2. Regression, using the [House Pricing](https://www.kaggle.com/apratim87/housingdata/data) (Kaggle) dataset.
-    3. Regression, with a custom estimator, using [Natality Baby Weight](https://catalog.data.gov/dataset?tags=birth-weight) (data.gov) dataset.
-    4. Classification, with a custom estimator, using [Statlog (German Credit Data)](https://archive.ics.uci.edu/ml/datasets/Statlog+%28German+Credit+Data%29) (UCI Machine Learning Repository) dataset.
-
-
-The examples show how the template is adapted given a dataset. The datasets are found in the examples' folders (under "data" sub-directory).
 
 
 ### Trainer Template Modules
